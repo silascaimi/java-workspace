@@ -3,9 +3,10 @@
 ## Projetos
 
 ## Basic
+- [Strings](strings/src/br/com/java/basic/strings)
 
 ## Advanced
 
 ## JavaEE
 ### JSF
-  - [Arquivos referencias](/referenciais/jsf)
+  - [Arquivos referenciais](/referenciais/jsf)
