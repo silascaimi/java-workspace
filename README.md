@@ -1,12 +1,12 @@
 # Learning-java
 
-## Projetos
+## Projects
 
 ## Basic
-- [Strings](strings/src/br/com/java/basic/strings)
+- [Strings](basic/strings/src/br/com/java/basic/strings)
 
 ## Advanced
 
 ## JavaEE
 ### JSF
-  - [Arquivos referenciais](/referenciais/jsf)
+  - [Arquivos referenciais](/jsf/referenciais)
