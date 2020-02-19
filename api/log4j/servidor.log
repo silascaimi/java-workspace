@@ -1,0 +1,24 @@
+Iniciando aplicação
+Salvando o cliente: Cliente [nome=João]
+Cliente salvo com sucesso
+Finalizando aplicação
+Iniciando aplicação
+Salvando o cliente: Cliente [nome=João]
+Cliente salvo com sucesso
+Finalizando aplicação
+Iniciando aplicação
+Salvando o cliente: Cliente [nome=João]
+Cliente salvo com sucesso
+Finalizando aplicação
+Iniciando aplicação
+Salvando o cliente: Cliente [nome=João]
+Cliente salvo com sucesso
+Finalizando aplicação
+Iniciando aplicação
+Salvando o cliente: Cliente [nome=João]
+Cliente salvo com sucesso
+Finalizando aplicação
+0    [main] INFO  com.curso.TesteSalvandoCliente  - Iniciando aplicação
+1    [main] DEBUG com.curso.dao.ClienteDAO  - Salvando o cliente: Cliente [nome=João]
+2    [main] DEBUG com.curso.dao.ClienteDAO  - Cliente salvo com sucesso
+2    [main] INFO  com.curso.TesteSalvandoCliente  - Finalizando aplicação
