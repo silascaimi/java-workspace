@@ -21,3 +21,4 @@
 - [Colocando parâmetros no GET](jsf/param-via-get)
 - [Criando uma tela de cadastro](jsf/tela-cadastro)
 - [Usando HTML5 no JSF](jsf/html-no-jsf/WebContent)
+- [Usando os resources](jsf/usando-resources/WebContent/)
