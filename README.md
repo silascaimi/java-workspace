@@ -3,7 +3,7 @@
 ## Projects
 
 ## Basic
-- [Entrada de dados no console com a classe Scanner](basic/data-input/src/br/com/input/)
+- [Entrada de dados com Scanner](basic/data-input/src/br/com/input/)
 - [Strings](basic/strings/src/br/com/java/basic/strings)
 - [Datas](basic/date/src/datas)
 
