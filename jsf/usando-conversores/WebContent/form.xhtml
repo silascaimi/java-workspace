@@ -11,6 +11,7 @@
 <h:body>
 	<h:form>
 		<h:messages />
+		<!-- <h:messages for="id " showSummary="true" showDetail="false"/> -->
 		<h:panelGrid columns="3">
 			Número inteiro:
 			<h:inputText id="numeroInteiro" value="#{form.numeroInteiro}" />
@@ -31,7 +32,7 @@
 			<h:message for="data" />
 			
 			Opção (OP_1/OP_2):
-			<h:inputText id="opcao" value="#{form.opcao}" />
+			<h:inputText id="opcao" value="#{form.opcao}" converterMessage="Favor escolher OP_1/OP_2" />
 			<h:message for="opcao" />
 
 			<h:commandButton value="Processar" action="#{form.processar}" />
