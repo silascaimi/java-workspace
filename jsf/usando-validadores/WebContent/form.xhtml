@@ -9,25 +9,32 @@
 	<title>Insert title here</title>
 </h:head>
 <h:body>
-<h:form>
-	<h:panelGrid columns="3">
-		<f:facet name="header">
+	<h:form>
+		<h:panelGrid columns="3">
+			<f:facet name="header">
 			Cadastro
 		</f:facet>
-		Nome:
-		<h:inputText id="nome" value="#{javaBean.nome}" required="true" validator="#{javaBean.validarInicial}">
-			<f:validateLength  minimum="3" maximum="30"/>
-		</h:inputText>
-		<h:message for="nome" />
-		Idade:
-		<h:inputText id="idade" value="#{javaBean.idade}" >
-			<f:validateRequired />
-			<f:validateLongRange minimum="3" maximum="100" />
-		</h:inputText>
-		<h:message for="idade" />
 		
-		<h:commandButton value="Processar"  action="result"/>
-	</h:panelGrid>
-</h:form>
+		Nome:
+		<h:inputText id="nome" value="#{javaBean.nome}" required="true"
+				validator="#{javaBean.validarInicial}">
+				<f:validateLength minimum="3" maximum="30" />
+			</h:inputText>
+			<h:message for="nome" />
+		
+		Idade:
+		<h:inputText id="idade" value="#{javaBean.idade}">
+				<f:validateRequired />
+				<!-- alternativa para required="true" -->
+				<f:validateLongRange minimum="3" maximum="100" />
+			</h:inputText>
+			<h:message for="idade" />
+
+			<h:commandButton value="Processar" action="result" />
+			<h:commandButton value="Cancelar" action="form" immediate="true" />
+			<!-- Cancela o processo de validação -->
+			
+		</h:panelGrid>
+	</h:form>
 </h:body>
 </html>
