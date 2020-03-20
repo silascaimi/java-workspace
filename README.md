@@ -7,6 +7,7 @@
 - [Entrada de dados com Scanner](basic/data-input/src/br/com/input/)
 - [Strings](basic/strings/src/br/com/java/basic/strings)
 - [Datas](basic/date/src/datas)
+- [Enums](basic/enums/src/com/java)
 - [Collections](basic/collections/src/com/java)
 
 ### Advanced
