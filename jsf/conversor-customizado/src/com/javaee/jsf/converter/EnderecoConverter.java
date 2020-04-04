@@ -8,7 +8,7 @@ import javax.faces.convert.FacesConverter;
 import com.javaee.jsf.model.Endereco;;
 
 @FacesConverter(forClass = Endereco.class)
-public class EndereçoConverter implements Converter<Object> {
+public class EnderecoConverter implements Converter<Object> {
 
 	@Override
 	public Object getAsObject(FacesContext context, UIComponent ui, String value) {

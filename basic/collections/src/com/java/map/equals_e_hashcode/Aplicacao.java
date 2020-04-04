@@ -3,7 +3,7 @@ package com.java.map.equals_e_hashcode;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Aplicação {
+public class Aplicacao {
 
 	public static void main(String[] args) {
 
