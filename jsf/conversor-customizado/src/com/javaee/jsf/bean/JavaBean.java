@@ -1,3 +1,4 @@
+package com.javaee.jsf.bean;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
 
