@@ -1,4 +1,4 @@
-package br.com.java.basic.strings;
+package com.java.stringbuilder;
 
 public class StringBuilderExemplo {
 
@@ -6,12 +6,12 @@ public class StringBuilderExemplo {
 	public static void main(String[] args) {
 
 		// StringBuilder e StringBuffer
-		// StringBuffer é recomendado para acesso concorrente
+		// StringBuffer ï¿½ recomendado para acesso concorrente
 		StringBuilder sb = new StringBuilder();
 		sb.append("abc");
 		sb.append("def");
 
-		sb.delete(4, 5); // remove os caracteres inicio(incluindo) até fim(excluindo)
+		sb.delete(4, 5); // remove os caracteres inicio(incluindo) atï¿½ fim(excluindo)
 		System.out.println(sb.toString());
 
 		sb.insert(3, "Fim"); // insere uma String a partir do caractere informado

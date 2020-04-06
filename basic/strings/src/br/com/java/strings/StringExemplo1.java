@@ -1,4 +1,4 @@
-package br.com.java.basic.strings;
+package br.com.java.strings;
 
 public class StringExemplo1 {
 
