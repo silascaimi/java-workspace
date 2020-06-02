@@ -14,7 +14,7 @@
 		<h:panelGrid columns="3">
 			Número inteiro:
 			<h:inputText id="numeroInteiro" value="#{form.numeroInteiro}" />
-			<h:message for="numeroInteiro" />
+			<h:message for="numeroInteiro" styleClass="error" />
 			<!-- <h:message for="id " showSummary="true" showDetail="false"/> -->
 			
 			Número decimal:
@@ -22,23 +22,23 @@
 				<f:convertNumber minFractionDigits="2" maxFractionDigits="2"
 					goupingUsed="false" />
 			</h:inputText>
-			<h:message for="numeroDecimal" />
-			
-			Caractere:
-			<h:inputText id="caractere" value="#{form.caractere}"
-				converterMesage="Erro de conversao" />
-			<!-- Mensagem de erro no proprio componente -->
+			<h:message for="numeroDecimal" styleClass="error" />
 			
 			Data (dd/mm/yyyy):
 			<h:inputText id="data" value="#{form.data}">
 				<f:convertDateTime pattern="dd/MM/yyyy" />
 			</h:inputText>
-			<h:message for="data" />
+			<h:message for="data" styleClass="error" />
 			
+			Caractere:
+			<h:inputText id="caractere" value="#{form.caractere}"
+				converterMesage="Erro de conversao" />
+			<h:message for="caractere" styleClass="error" />
+
 			Opção (OP_1/OP_2):
 			<h:inputText id="opcao" value="#{form.opcao}"
 				converterMessage="Favor escolher OP_1/OP_2" />
-			<h:message for="opcao" />
+			<h:message for="opcao" styleClass="error" />
 
 			<h:commandButton value="Processar" action="#{form.processar}" />
 		</h:panelGrid>
