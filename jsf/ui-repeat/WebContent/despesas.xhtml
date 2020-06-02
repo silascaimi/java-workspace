@@ -8,8 +8,9 @@
   <title>Cadastro de Despesas</title>
 </h:head>
 
-<body>
+<h:body>
   <h:outputStylesheet library="css" name="styles.css" />
+  <h:outputScript library="scripts" name="javascript.js" target="body" />
 
   <h:messages styleClass="message" />
 
@@ -55,7 +56,7 @@
             <td class="colOp">
               <h:panelGroup rendered="#{!d.edit}">
                 <h:commandLink value="Alterar" action="#{table.editar(d)}" /> | 
-              <h:commandLink value="Excluir" action="#{table.excluir(d)}" onclick="return validarExclusao();"/>
+                <h:commandLink value="Excluir" action="#{table.excluir(d)}" onclick="return validarExclusao();" />
               </h:panelGroup>
               <h:commandLink value="Gravar" action="#{table.gravar(d)}" rendered="#{d.edit}" />
             </td>
@@ -72,15 +73,5 @@
 
     <h:commandButton value="Inserir" action="#{table.inserir}" />
   </h:form>
-  
-  <script>
-  	function validarExclusao(){  		
-  		if(confirm("Confirmar exclusão?")){
-  			return true;
-  		}
-  		return false;
-  	}
-  </script>
-
-</body>
+</h:body>
 </html>
